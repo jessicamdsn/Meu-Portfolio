@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-pg-inicial',
   standalone: true,
-  imports: [MatIconModule],
+  imports: [],
   templateUrl: './pg-inicial.component.html',
   styleUrl: './pg-inicial.component.css'
 })

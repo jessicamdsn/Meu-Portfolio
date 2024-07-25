@@ -10,3 +10,16 @@
     z-index: 1;
     margin-top: -205px;
 }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    h1{
+        font-weight: 300;
+        width: 70%;
+        text-align: center;
+    }
+}
