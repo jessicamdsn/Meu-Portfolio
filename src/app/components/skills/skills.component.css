@@ -1,0 +1,12 @@
+.box-all{
+    background-image: url(../../../assets/back-removebg-preview.png);
+    background-size: cover;
+    height: 690px;
+
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    margin-top: -205px;
+}

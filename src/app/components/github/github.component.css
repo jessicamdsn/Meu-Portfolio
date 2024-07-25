@@ -1,0 +1,11 @@
+.box-all{
+    margin-top: -2px;
+    background-image: url(../../../assets/back4.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 1800px;
+    background-attachment: fixed;
+
+    position: relative;
+    z-index: 0;
+}
