@@ -22,4 +22,11 @@
         width: 70%;
         text-align: center;
     }
+    p{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .countdown-part {
+        color: #FF8BBC;
+      }
 }
