@@ -1,11 +1,42 @@
 <div class="box-all">
    <div class="box">
-    <h1>Contagem regressiva para formação em Análise e Desenvolvimento de sistemas...</h1>
-    <p>
-      <span class="countdown-part">{{ countdown.days }}</span> dias, 
-      <span class="countdown-part">{{ countdown.hours }}</span> horas, 
-      <span class="countdown-part">{{ countdown.minutes }}</span> minutos, 
-      <span class="countdown-part">{{ countdown.seconds }}</span> segundos
-    </p>
-    </div>
+      <h1>Contagem regressiva para minha formação em Análise e Desenvolvimento de sistemas...</h1>
+      <p>
+         <span class="countdown-part">{{ countdown.days }}</span>D
+         <span class="countdown-part">{{ countdown.hours }}</span>H
+         <span class="countdown-part">{{ countdown.minutes }}</span>Min
+         <span class="countdown-part">{{ countdown.seconds }}</span>S
+      </p>
+   </div>
+
+   <div class="carrossel">
+      <div class="titulo-skill">
+         <hr>
+         <h1>Minhas SkillS</h1>
+         <hr>
+      </div>
+      <swiper-container class="swiper" slides-per-view="7" loop="true" navigation="true" >
+         <swiper-slide *ngFor="let slide of slides; let i = index" class="slide">
+            <div class="img-logo">
+              <img  [src]="slide.img" alt="Slide Image" width="60%"> 
+            </div>
+         </swiper-slide>
+      </swiper-container>
+
+      <swiper-container class="swiper2" slides-per-view="5" loop="true" navigation="true" >
+         <swiper-slide *ngFor="let slide of slides; let i = index" class="slide">
+            <div class="img-logo">
+              <img  [src]="slide.img" alt="Slide Image" width="70%"> 
+            </div>
+         </swiper-slide>
+      </swiper-container>
+
+      <swiper-container class="swiper3" slides-per-view="3" loop="true" navigation="true" >
+         <swiper-slide *ngFor="let slide of slides; let i = index" class="slide">
+            <div class="img-logo">
+              <img  [src]="slide.img" alt="Slide Image" width="70%"> 
+            </div>
+         </swiper-slide>
+      </swiper-container>
+   </div>
 </div>

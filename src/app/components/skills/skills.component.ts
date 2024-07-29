@@ -1,13 +1,58 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, OnInit, OnDestroy, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  styleUrl: './skills.component.css',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class SkillsComponent implements OnInit, OnDestroy {
+
+
+  slides = [
+    {
+      name: 'Git',
+      img: '../../../assets/git.png',
+    },
+  
+    {
+      name: 'Rosa bebê',
+      img: '../../../assets/angular.png',
+    },
+  
+    {
+      name: 'Rosa choque',
+      img: '../../../assets/html.png',
+    },
+  
+    {
+      name: 'Rosa escuro',
+      img: '../../../assets/css.png',
+    },
+  
+    {
+      name: 'Rosa pastel',
+      img: '../../../assets/js.png',
+    },
+  
+    {
+      name: 'Rosa magenta',
+      img: '../../../assets/ts.png',
+    },
+    {
+      name: 'Rosa magenta',
+      img: '../../../assets/java.png',
+    },
+    {
+      name: 'Rosa magenta',
+      img: '../../../assets/csharp.png',
+    },
+  ];
+
+
   countdown = {
     days: 0,
     hours: 0,

@@ -16,17 +16,128 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 260px;
     h1{
         font-weight: 300;
         width: 70%;
         text-align: center;
     }
     p{
-        font-size: 22px;
+        font-size: 32px;
         margin-top: 25px;
     }
     .countdown-part {
         color: #FF8BBC;
       }
+}
+.carrossel{
+    margin-top: 70px;
+}
+
+.titulo-skill{
+    color: #FF8BBC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+
+   hr{
+    width:39%;
+    border-color: #FF8BBC;
+   }
+   h1{
+    text-align: center;
+   
+    padding: 0px 1%;
+   }
+}
+.img-logo{
+    background-color: #231F20;
+    padding: 15px 0px;
+    width: 65%;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+
+}
+.swiper2, .swiper3{
+    display: none;
+}
+@media (max-width: 1280px){
+    .titulo-skill{
+       hr{
+    width: 37%;
+       }
+       h1{
+        font-size: 27px;
+       }
+    }
+}
+@media (max-width: 1000px){
+    .swiper2{
+        display: block;
+        img{
+            width: 60%;
+        }
+    }
+    .swiper, .swiper3{
+        display: none;
+    }
+    .box{
+        margin-top: 230px;
+        h1{
+            width: 80%;
+            font-size: 25px;
+        }
+        p{
+            font-size: 28px;
+            margin-top: 20px;
+        }
+    }
+    .carrossel{
+        margin-top: 80px;
+    }
+    .titulo-skill{
+        margin-bottom: 50px;
+      
+       hr{
+        width:32%;
+       }
+       h1{
+        font-size: 25px;
+        
+       }
+    }
+}
+@media (max-width: 620px){
+
+    .swiper3{
+        display: block;
+        img{
+            width: 60%;
+        }
+    }
+    .swiper2, .swiper{
+        display: none;
+    }
+   
+    .titulo-skill{
+        hr{
+     width: 22%;
+        }
+        h1{
+         font-size: 22px;
+        }
+     }
+     .box{
+        margin-top: 200px;
+        h1{
+            font-size: 22px;
+        }
+        p{
+            font-size: 25px;
+            margin-top: 40px;
+        }
+    }
 }
