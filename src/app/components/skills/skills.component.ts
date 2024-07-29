@@ -15,40 +15,40 @@ export class SkillsComponent implements OnInit, OnDestroy {
   slides = [
     {
       name: 'Git',
-      img: '../../../assets/git.png',
+      img: '../../../assets/logos/git.png',
     },
   
     {
-      name: 'Rosa bebê',
-      img: '../../../assets/angular.png',
+      name: 'Angular',
+      img: '../../../assets/logos/angular.png',
     },
   
     {
-      name: 'Rosa choque',
-      img: '../../../assets/html.png',
+      name: 'Html',
+      img: '../../../assets/logos/html.png',
     },
   
     {
-      name: 'Rosa escuro',
-      img: '../../../assets/css.png',
+      name: 'Css',
+      img: '../../../assets/logos/css.png',
     },
   
     {
-      name: 'Rosa pastel',
-      img: '../../../assets/js.png',
+      name: 'JavaScript',
+      img: '../../../assets/logos/js.png',
     },
   
     {
-      name: 'Rosa magenta',
-      img: '../../../assets/ts.png',
+      name: 'TypeScript',
+      img: '../../../assets/logos/ts.png',
     },
     {
-      name: 'Rosa magenta',
-      img: '../../../assets/java.png',
+      name: 'Java',
+      img: '../../../assets/logos/java.png',
     },
     {
-      name: 'Rosa magenta',
-      img: '../../../assets/csharp.png',
+      name: 'Csharp',
+      img: '../../../assets/logos/csharp.png',
     },
   ];
 
