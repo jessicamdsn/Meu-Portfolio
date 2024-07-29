@@ -5,52 +5,11 @@ import { Component, OnInit, OnDestroy, CUSTOM_ELEMENTS_SCHEMA } from '@angular/c
   selector: 'app-skills',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css',
+  templateUrl: './contagem.component.html',
+  styleUrl: './contagem.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class SkillsComponent implements OnInit, OnDestroy {
-
-
-  slides = [
-    {
-      name: 'Git',
-      img: '../../../assets/logos/git.png',
-    },
-  
-    {
-      name: 'Angular',
-      img: '../../../assets/logos/angular.png',
-    },
-  
-    {
-      name: 'Html',
-      img: '../../../assets/logos/html.png',
-    },
-  
-    {
-      name: 'Css',
-      img: '../../../assets/logos/css.png',
-    },
-  
-    {
-      name: 'JavaScript',
-      img: '../../../assets/logos/js.png',
-    },
-  
-    {
-      name: 'TypeScript',
-      img: '../../../assets/logos/ts.png',
-    },
-    {
-      name: 'Java',
-      img: '../../../assets/logos/java.png',
-    },
-    {
-      name: 'Csharp',
-      img: '../../../assets/logos/csharp.png',
-    },
-  ];
 
 
   countdown = {

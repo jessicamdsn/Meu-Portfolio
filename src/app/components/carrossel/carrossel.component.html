@@ -1,0 +1,32 @@
+<div class="box-all">
+<div class="carrossel">
+    <div class="titulo-skill">
+       <hr>
+       <h1>Minhas SkillS</h1>
+       <hr>
+    </div>
+    <swiper-container class="swiper" slides-per-view="7" loop="true" navigation="true" >
+       <swiper-slide *ngFor="let slide of slides; let i = index" class="slide">
+          <div class="img-logo">
+            <img  [src]="slide.img" alt="Slide Image" width="60%"> 
+          </div>
+       </swiper-slide>
+    </swiper-container>
+
+    <swiper-container class="swiper2" slides-per-view="5" loop="true" navigation="true" >
+       <swiper-slide *ngFor="let slide of slides; let i = index" class="slide">
+          <div class="img-logo">
+            <img  [src]="slide.img" alt="Slide Image" width="70%"> 
+          </div>
+       </swiper-slide>
+    </swiper-container>
+
+    <swiper-container class="swiper3" slides-per-view="3" loop="true" navigation="true" >
+       <swiper-slide *ngFor="let slide of slides; let i = index" class="slide">
+          <div class="img-logo">
+            <img  [src]="slide.img" alt="Slide Image" width="70%"> 
+          </div>
+       </swiper-slide>
+    </swiper-container>
+ </div>
+</div>

@@ -1,12 +1,13 @@
 p{
-    margin-top: 480px;
+    margin-top: 110px;
     background-image: url(../../../assets/back3.png);
     background-size: cover;
-    height: 400px;
+    height: 380px;
 
     position: absolute;
     top: 100;
     left: 0;
     width: 100%;
     z-index: 1;
+    color: black;
 }

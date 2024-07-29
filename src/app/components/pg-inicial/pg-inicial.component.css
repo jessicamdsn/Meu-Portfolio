@@ -1,7 +1,7 @@
 .box-all{
     background-image: url(../../../assets/inicial.png);
     background-size: cover;
-    height: 850px;
+    height: 840px;
     background-attachment: fixed;
 
     position: relative;
