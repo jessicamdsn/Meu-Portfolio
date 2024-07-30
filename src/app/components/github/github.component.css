@@ -3,7 +3,7 @@
     background-image: url(../../../assets/back4.png);
     background-size: cover;
     background-position: bottom;
-    height: 1800px;
+    height: 2300px;
     background-attachment: fixed;
 
     position: relative;
@@ -38,6 +38,7 @@
 
 .projetos{
     display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
     justify-content: center;
@@ -46,7 +47,11 @@
     span{
         color:#FF8BBC;
     }
+    h1{
+        margin-bottom: 70px;
+    }
 }
+
 
 @media (max-width: 935px){
     .content{
@@ -85,6 +90,11 @@
         }
 
     }
+}
+@media (max-width: 870px) {
+    .box-all{
+        height: 2700px;
+    } 
 }
 @media (max-width: 560px){
     .content{

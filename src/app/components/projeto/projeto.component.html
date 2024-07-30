@@ -1,1 +1,19 @@
-<p>projeto works!</p>
+<div class="projeto" [ngClass]="customClass">
+    <div class="gif">
+        <img [src]="gifUrl" alt="" width="440px">
+    </div>
+    <div class="content">
+        <h3> {{sobreprojeto}}</h3>
+
+        <div class="icones">
+            <div *ngFor="let imgUrl of imgUrls">
+                <img [src]="imgUrl" alt="Logo" width="45px">
+            </div>
+        </div>
+        <div class="botao">
+            <a [href]="gitUrl" Target="_blank">Ver repositorio</a>
+            <a [href]="url" Target="_blank">Navegue</a>
+        </div>
+
+    </div>
+</div>

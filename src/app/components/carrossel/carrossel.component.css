@@ -122,3 +122,11 @@
     
     }
 }
+@media (max-width: 450px){
+
+    .box-all{
+        margin-top: -180px;
+       height: 240px;
+    
+    }
+}
