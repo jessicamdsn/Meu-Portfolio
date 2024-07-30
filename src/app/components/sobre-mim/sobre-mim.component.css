@@ -128,9 +128,12 @@
   }
   @media (max-width: 480px){
     .box-all{
-        height: 850px;
+        height: 820px;
     }
     .sobre-mim{
         padding-top: 15%;
      }
+     .content{
+      width: 90%;
+  }
 }

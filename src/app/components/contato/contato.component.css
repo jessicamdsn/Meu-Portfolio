@@ -1,0 +1,151 @@
+.box-all{
+    margin-top: -220px;
+    background-image: url(../../../assets/back-removebg-preview.png);
+    background-size: cover;
+   height: 250px;
+
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.box{
+    margin-top: 300px;
+    display: flex;
+    width: 95%;
+}
+.imagem{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    height: 600px;
+    img{
+        height: 90%;
+    }
+}
+h1{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.formulario{
+    
+    margin-left: 150px;
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    #name,#email{
+        background-color: black;
+        border: 1px solid #ff8bbc;
+        border-radius: 8px;
+        width: 80%;
+        height: 40px;
+        padding-left: 15px;
+        font-family: "Courier Prime", monospace;
+        color: aliceblue;
+        margin-bottom: -10px;
+    }
+    label{
+        font-size: 22px;
+        margin-bottom: 10px;
+        width: 200px;
+    }
+    #message{
+        margin-top: -10px;
+        height: 150px;
+        background-color: black;
+        border: 1px solid #ff8bbc;
+        border-radius: 8px;
+        width: 80%;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-family: "Courier Prime", monospace;
+        color: aliceblue;
+    }
+    .enviar{
+        width: 150px;
+        background-color: #ff8bbc;
+        color: rgb(0, 0, 0);
+        border-radius: 8px;
+        height: 40px;
+        font-size: 18px;
+        cursor: pointer;
+        border: 1px solid #ff8bbc;
+        margin-bottom: 100px;
+        transition: background-color .5s ease-in-out, color .5s ease-in-out;
+    }
+    .enviar:hover{
+        background-color: #000000;
+        color: #ff8bbc;
+    }
+}
+
+@media (max-width:1500px) {
+    .box{
+        margin-top: 250px;
+    }
+}
+  @media (max-width:1300px) {
+    .imagem{
+        display: none;
+    }
+    .formulario{
+        width: 90%;
+    }
+  }
+  @media (max-width:705px) {
+    .box{
+        margin-top: 180px;
+    }
+    .formulario{
+        margin-left: 10%;
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    form{
+        label{
+            font-size: 18px;
+        }
+        #name,#email{
+            width: 90%;
+        }
+        #message{
+            width: 90%;
+        }
+        .enviar{
+            width: 130px;
+            font-size: 16px;
+        }
+    }
+  }
+
+.underline-effect {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.underline-effect::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    bottom: 0;
+    left: 50%;
+    background-color: #ff8bbc; 
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+.underline-effect:hover::after {
+    width: 100%;
+    left: 0;
+}
+ 
+
