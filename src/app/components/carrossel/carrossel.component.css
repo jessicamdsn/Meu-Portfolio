@@ -43,6 +43,34 @@
     justify-content: center;
 
 }
+.img-logo:hover{
+    background-color: #3a3336;
+}
+.img-logo:hover img{
+    margin-top: 12px;
+    margin-bottom: -12px;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 32%;
+    padding: 8px;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 5;
+
+}
+
+.img-logo:hover .caption {
+    opacity: 1; /* Torna a legenda visível */
+}
+
+
+
 .swiper2, .swiper3{
     display: none;
 }
@@ -89,6 +117,9 @@
     }
 }
 @media (max-width: 620px){
+    .caption{
+        font-size: 13px;
+    }
     .carrossel{
         margin-top: 32%;
     }

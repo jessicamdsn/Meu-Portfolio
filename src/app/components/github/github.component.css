@@ -33,6 +33,14 @@
         text-align: center;
         padding: 10px 0px;
     }
+    h3{
+        color: rgb(207, 207, 207);
+    }
+    img{
+        animation: scaleUp 1.5s infinite;
+       filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.575));
+        
+    }
    
 }
 
@@ -52,6 +60,27 @@
     }
 }
 
+@keyframes scaleUp {
+    0% {
+      transform: scale(1); /* Escala inicial de 100% */
+    }
+    50% {
+      transform: scale(1.1); /* Escala final de 110% */
+    }
+    100% {
+        transform: scale(1); /* Escala inicial de 100% */
+      }
+  }
+  
+  .typing-text {
+    animation: typing 5s infinite;
+    color: #ffffff;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
 
 @media (max-width: 935px){
     .content{

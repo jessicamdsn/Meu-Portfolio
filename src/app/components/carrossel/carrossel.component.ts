@@ -22,12 +22,12 @@ export class CarrosselComponent {
     },
   
     {
-      name: 'Html',
+      name: 'Html5',
       img: '../../../assets/logos/html.png',
     },
   
     {
-      name: 'Css',
+      name: 'Css3',
       img: '../../../assets/logos/css.png',
     },
   

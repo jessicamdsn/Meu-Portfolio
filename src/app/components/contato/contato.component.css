@@ -76,7 +76,7 @@ form{
         cursor: pointer;
         border: 1px solid #ff8bbc;
         margin-bottom: 100px;
-        transition: background-color .5s ease-in-out, color .5s ease-in-out;
+        transition: background-color .4s ease-in-out, color .4s ease-in-out;
     }
     .enviar:hover{
         background-color: #000000;
@@ -121,6 +121,7 @@ form{
         .enviar{
             width: 130px;
             font-size: 16px;
+            
         }
     }
   }

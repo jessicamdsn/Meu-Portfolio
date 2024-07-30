@@ -24,6 +24,13 @@
 .links {
   position: relative;
    z-index: 5; 
+   img{
+    margin: 0px 10px;
+    transition: scale .2s ease-in;
+   }
+   img:hover{
+    scale: 115%;
+   }
 }
 
   .wave-frame {

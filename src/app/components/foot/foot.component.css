@@ -1,0 +1,45 @@
+.box{
+    margin-top: 800px;
+    background-color: #9e295a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.cop{
+    font-size: 18px;
+}
+.small-text {
+    font-size: 13px;
+    color: #858484;
+    margin-top: 5px;
+}
+img:hover{
+    scale: 105%;
+}
+
+@media (max-width:705px) {
+    .box{
+        margin-top: 600px;
+    }
+    img{
+        width: 35px;
+    }
+}

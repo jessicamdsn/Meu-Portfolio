@@ -7,6 +7,7 @@ import { DivisaoComponent } from './components/divisao/divisao.component';
 import { SobreMimComponent } from './components/sobre-mim/sobre-mim.component';
 import { CarrosselComponent } from "./components/carrossel/carrossel.component";
 import { ContatoComponent } from "./components/contato/contato.component";
+import { FootComponent } from "./components/foot/foot.component";
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { ContatoComponent } from "./components/contato/contato.component";
     DivisaoComponent,
     SobreMimComponent,
     CarrosselComponent,
-    ContatoComponent
+    ContatoComponent,
+    FootComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
