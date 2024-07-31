@@ -1,4 +1,4 @@
-# 👩🏻 Meu Portfólio
+# 👩🏻‍💻 Meu Portfólio
 
 ## 💻 Visão Geral
 Este portfólio desenvolvido em Angular oferece uma visão abrangente das minhas habilidades e projetos recentes como desenvolvedora. Nele, você encontrará uma apresentação clara dos projetos que realizei, detalhando o desenvolvimento e as tecnologias empregadas. O objetivo deste portfólio é destacar minhas capacidades e conquistas de forma organizada e atraente, refletindo meu trabalho e dedicação na área de desenvolvimento de software.
