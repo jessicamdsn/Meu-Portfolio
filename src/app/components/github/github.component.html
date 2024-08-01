@@ -14,11 +14,20 @@
     <h1>Mas deixa eu te dar alguns <span>spoilers</span><span class="typing-text">{{ currentText }}</span></h1>    
 
     <app-projeto
+    [gifUrl]="'../../../assets/projetos/projeto.gif'"
+    [imgUrls]="['../../../assets/logos/angular.png', '../../../assets/logos/ts.png', '../../../assets/logos/html.png', '../../../assets/logos/css.png', '../../../assets/logos/git.png']"
+    [sobreprojeto]="' Projeto da Residência Tecnológica II do Porto Digital, com a parceria da empresa Di2Win. O objetivo é desenvolver um relatório administrativo para a Plataforma extAIdados. Através deste relatório, o administrador terá a capacidade de visualizar todos os extratos de consumo dos usuários na plataforma, acessíveis por meio do login administrativo.'"
+    [gitUrl]="'https://github.com/jessicamdsn/Di2Win-Riseup'"
+    [url]="'https://di2-win-riseup-7q73.vercel.app/login'"
+    ></app-projeto>
+
+    <app-projeto
     [gifUrl]="'../../../assets/projetos/projeto1.gif'"
     [imgUrls]="['../../../assets/logos/angular.png', '../../../assets/logos/ts.png', '../../../assets/logos/html.png', '../../../assets/logos/css.png', '../../../assets/logos/git.png']"
     [sobreprojeto]="'Réplica da interface do site da PlayStation, desenvolvida para desafiar minhas habilidades em Angular, Swiper e Angular Materials.'"
     [gitUrl]="'https://github.com/jessicamdsn/PlayStation-Site'"
     [url]="'https://play-station-site.vercel.app/'"
+    customClass="row-reverse"
     ></app-projeto>
 
     <app-projeto
@@ -27,7 +36,7 @@
     [sobreprojeto]="'Aplicação web interativa desenvolvida com Angular, que permite aos usuários buscar e visualizar informações sobre diferentes Pokémon utilizando a API pública da PokéAPI.'"
     [gitUrl]="'https://github.com/jessicamdsn/Pokemon'"
     [url]="'https://pokemon-ochre-one.vercel.app/'"
-    customClass="row-reverse"
+    [url]="'https://jessicamdsn.github.io/Jogo-da-Forca/'"
     ></app-projeto>
 
     <app-projeto
@@ -35,7 +44,7 @@
     [imgUrls]="[ '../../../assets/logos/html.png', '../../../assets/logos/css.png', '../../../assets/logos/js.png', '../../../assets/logos/git.png']"
     [sobreprojeto]="'O Jogo da Forca é uma versão online e responsiva do jogo clássico. O jogador pode escolher entre diferentes temas, como frutas, países, adjetivos, animais e profissões, para adivinhar a palavra secreta.'"
     [gitUrl]="'https://github.com/jessicamdsn/Jogo-da-Forca'"
-    [url]="'https://jessicamdsn.github.io/Jogo-da-Forca/'"
+    customClass="row-reverse"
     ></app-projeto>
 
     </div>
