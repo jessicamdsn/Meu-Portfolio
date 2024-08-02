@@ -64,6 +64,38 @@ section{
     }
 }
 
+.clicaveis{
+display: flex;
+gap: 20px;
+
+button{
+    cursor: pointer;
+    background-color: #FF8BBC;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: none;
+    img{
+        width: 25px;
+        height: 25px;
+    }
+}
+.click{
+    display: flex;
+    align-items: center;
+}
+.click:hover {
+    scale: 108%;  
+    small{
+        display: block; 
+    }  
+}
+small{
+    display: none;
+    padding-left: 10px;
+}
+
+}
+
 .animated-button {
     font-size: 22px;
     padding: 10px 10px 9px 20px;
@@ -122,6 +154,17 @@ section{
 
 
   @media (max-width: 815px) {
+    
+.clicaveis{
+    
+    button{
+        padding: 8px 8px;
+        img{
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
     .nav{
         padding: 7% 3%;
         h1{

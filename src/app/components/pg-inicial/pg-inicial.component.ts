@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './pg-inicial.component.css'
 })
 export class PgInicialComponent {
+
+  downloadFile() {
+    const link = document.createElement('a');
+    link.href = '../../../assets/curriculo/Curriculo-Jessica-Neves.pdf';  // URL do arquivo que você quer que seja baixado
+    link.download = 'Curriculo-Jessica-Neves';  // Nome que você quer que o arquivo tenha quando for baixado
+    link.click();
+  }
+
+
   texts = "Hello world...";
   currentText = '';
   private currentIndex = 0;

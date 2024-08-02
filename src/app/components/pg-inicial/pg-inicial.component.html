@@ -11,10 +11,19 @@
     <section>
       <h1 class="hello typing-text">{{ currentText }}|</h1>
     <h1 class="jessica">Eu me chamo <br> Jéssica Neves/</h1>
-    <a class="botao" href="#projetos">
+    <div class="clicaveis">
+         <a class="botao" href="#projetos">
         <p class="animated-button">Meus projetos</p>
         <img src="../../../assets/seta.svg" alt="seta" class="material-icons" width="24px">
     </a>
+    <div class="click">
+     <button (click)="downloadFile()"> 
+        <img src="../../../assets/download.svg" alt="">
+    </button>
+    <small >Baixar CV</small>    
+    </div>
+    </div>
+   
     </section>
     
 </div>
