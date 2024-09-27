@@ -14,6 +14,7 @@ export class PgInicialComponent {
     link.href = '../../../assets/curriculo/Curriculo-Jessica-Neves.pdf';  // URL do arquivo que você quer que seja baixado
     link.download = 'Curriculo-Jessica-Neves';  // Nome que você quer que o arquivo tenha quando for baixado
     link.click();
+    
   }
 
 
